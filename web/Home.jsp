@@ -63,7 +63,7 @@
                         <c:forEach items="${requestScope.listP}" var="o">
                             <div class="col-12 col-md-6 col-lg-4">
                                 <div class="card">
-                                    <img class="card-img-top" src="${o.image}" alt="Card image cap">
+                                    <img class="card-img-top" src="${o.image}" alt="Card cap">
                                     <div class="card-body">
                                         <h4 class="card-title show_txt"><a href="detail?pid=${o.id}" title="View Product">${o.name}</a></h4>
                                         <p class="card-text show_txt">${o.title}</p>
